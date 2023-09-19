@@ -2,23 +2,23 @@
 
 #### Table of Contents
 
-- What are the features of React?
-- What is JSX?
-- Can web browsers read JSX directly?
-- What is the virtual DOM?
-- Why use React instead of other frameworks, like Angular?
-- What is the difference between the ES6 and ES5 standards?
-- How do you create a React app?
-- What is an event in React?
-- How do you create an event in React?
-- What are synthetic events in React?
-- Explain how lists work in React
-- Why is there a need for using keys in Lists?
-- What are forms in React?
-- How do you create forms in React?
-- How do you write comments in React?
-- What is an arrow function and how is it used in React?
-- How is React different from React Native?
+- [What are the features of React?](#what-are-the-features-of-react)
+- [What is JSX?](#what-is-jsx)
+- [Can web browsers read JSX directly?](#can-web-browsers-read-jsx-directly)
+- [What is the virtual DOM?](#what-is-the-virtual-dom)
+- [Why use React instead of other frameworks, like Angular?](#why-use-react-instead-of-other-frameworks-like-angular)
+- [What is the difference between the ES6 and ES5 standards?](#what-is-the-difference-between-the-es6-and-es5-standards)
+- [How do you create a React app?](#how-do-you-create-a-react-app)
+- [What is an event in React?](#what-is-an-event-in-react)
+- [How do you create an event in React?](#how-do-you-create-an-event-in-react)
+- [What are synthetic events in React?](#what-are-synthetic-events-in-react)
+- [Explain how lists work in React](#explain-how-lists-work-in-react)
+- [Why is there a need for using keys in Lists?](#why-is-there-a-need-for-using-keys-in-lists)
+- [What are forms in React?](#what-are-forms-in-react)
+- [How do you create forms in React?](#how-do-you-create-forms-in-react)
+- [How do you write comments in React?](#how-do-you-write-comments-in-react)
+- [What is an arrow function and how is it used in React?](#what-is-an-arrow-function-and-how-is-it-used-in-react)
+- [How is React different from React Native?](#how-is-react-different-from-react-native)
 
 ### What are the features of React?
 
@@ -77,7 +77,7 @@ render() {
 - For a web browser to read a JSX file, the file needs to be transformed into a regular JavaScript
   object. For this, we use Babel.
 
-![Babel](https://github.com/lcycstudio/interviews/blob/master/react/Top%2040%20ReactJS%20Interview%20Questions%20and%20Answers%20for%202023/Basic%20Level%20-%20ReactJS%20Interview%20Questions/babel.png)
+![Babel](/react/Top%2040%20ReactJS%20Interview%20Questions%20and%20Answers%20for%202023/Basic%20Level%20-%20ReactJS%20Interview%20Questions/babel.png)
 
 ### What is the virtual DOM?
 
@@ -86,7 +86,7 @@ Each branch of the tree ends in a node, and each node contains objects.
 
 React keeps a lightweight representation of the real DOM in the memory, and that is known as the virtual DOM. When the state of an object changes, the virtual DOM changes only that object in the real DOM, rather than updating all the objects. The following are some of the most frequently asked react interview questions.
 
-![DOM](https://github.com/lcycstudio/interviews/blob/master/react/Top%2040%20ReactJS%20Interview%20Questions%20and%20Answers%20for%202023/Basic%20Level%20-%20ReactJS%20Interview%20Questions/dom.png)
+![DOM](/react/Top%2040%20ReactJS%20Interview%20Questions%20and%20Answers%20for%202023/Basic%20Level%20-%20ReactJS%20Interview%20Questions/dom.png)
 
 ### Why use React instead of other frameworks, like Angular?
 
