@@ -1,2 +1,1 @@
-# interviews
-Interview Questions and Answers for Tech Stacks
+# Interview Questions and Answers for Tech Stacks
