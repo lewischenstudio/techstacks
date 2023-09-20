@@ -196,9 +196,7 @@ have to use a common logic.
 
 ### How can you embed two or more components into one?
 
-When we passed props from the parent to child component, we already embedded two components in
-the above example. The basic structure of embedding two or more components into one is like
-the following.
+The basic structure of embedding two or more components into one is like the following.
 
 ```js
 class App extends React.Component {

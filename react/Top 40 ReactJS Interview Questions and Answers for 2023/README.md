@@ -4,12 +4,25 @@
 
 #### Table of Contents
 
-- [Most Asked ReactJS Interview Questions](/react/Top%2040%20ReactJS%20Interview%20Questions%20and%20Answers%20for%202023/Most%20Asked%20ReactJS%20Interview%20Questions)
-- [Basic Level - ReactJS Interview Questions](/react/Top%2040%20ReactJS%20Interview%20Questions%20and%20Answers%20for%202023/Basic%20Level%20-%20ReactJS%20Interview%20Questions)
-- [ReactJS Interview Questions on Components](/react/Top%2040%20ReactJS%20Interview%20Questions%20and%20Answers%20for%202023/ReactJS%20Interview%20Questions%20on%20Components)
-- [ReactJS Redux Interview Questions](/react/Top%2040%20ReactJS%20Interview%20Questions%20and%20Answers%20for%202023/ReactJS%20Redux%20Interview%20Questions)
-- [ReactJS Router Questions](/react/Top%2040%20ReactJS%20Interview%20Questions%20and%20Answers%20for%202023/ReactJS%20Router%20Questions)
-- [ReactJS Styling Questions](/react/Top%2040%20ReactJS%20Interview%20Questions%20and%20Answers%20for%202023/ReactJS%20Styling%20Questions)
+- [Most Asked ReactJS Interview Questions](#most)
+- [Basic Level - ReactJS Interview Questions](#basic-level---reactjs-interview-questions)
+- [ReactJS Interview Questions on Components](#reactjs-interview-questions-on-components)
+- [ReactJS Redux Interview Questions](#reactjs-redux-interview-questions)
+- [ReactJS Router Questions](#reactjs-router-questions)
+- [ReactJS Styling Questions](#reactjs-styling-questions)
+
+### [Most Asked ReactJS Interview Questions](/react/Top%2040%20ReactJS%20Interview%20Questions%20and%20Answers%20for%202023/Most%20Asked%20ReactJS%20Interview%20Questions)
+
+- [What is ReactJS?](/react/Top%2040%20ReactJS%20Interview%20Questions%20and%20Answers%20for%202023/Most%20Asked%20ReactJS%20Interview%20Questions#what-is-reactjs)
+- [Why ReactJS is Used?](/react/Top%2040%20ReactJS%20Interview%20Questions%20and%20Answers%20for%202023/Most%20Asked%20ReactJS%20Interview%20Questions#why-reactjs-is-used)
+- [How Does ReactJS work?](/react/Top%2040%20ReactJS%20Interview%20Questions%20and%20Answers%20for%202023/Most%20Asked%20ReactJS%20Interview%20Questions#how-does-reactjs-work)
+- [What are the features of ReactJS?](/react/Top%2040%20ReactJS%20Interview%20Questions%20and%20Answers%20for%202023/Most%20Asked%20ReactJS%20Interview%20Questions#what-are-the-features-of-reactjs)
+- [What is JSX?](/react/Top%2040%20ReactJS%20Interview%20Questions%20and%20Answers%20for%202023/Most%20Asked%20ReactJS%20Interview%20Questions#what-is-jsx)
+- [How to create components in ReactJS?](/react/Top%2040%20ReactJS%20Interview%20Questions%20and%20Answers%20for%202023/Most%20Asked%20ReactJS%20Interview%20Questions#how-to-create-components-in-reactjs)
+- [What are the advantages of ReactJS?](/react/Top%2040%20ReactJS%20Interview%20Questions%20and%20Answers%20for%202023/Most%20Asked%20ReactJS%20Interview%20Questions#what-are-the-advantages-of-reactjs)
+- [Differentiate between real DOM and virtual DOM?](/react/Top%2040%20ReactJS%20Interview%20Questions%20and%20Answers%20for%202023/Most%20Asked%20ReactJS%20Interview%20Questions#differentiate-between-real-dom-and-virtual-dom)
+- [What are forms in ReactJS?](/react/Top%2040%20ReactJS%20Interview%20Questions%20and%20Answers%20for%202023/Most%20Asked%20ReactJS%20Interview%20Questions#what-are-forms-in-reactjs)
+- [How is React different from React Native?](/react/Top%2040%20ReactJS%20Interview%20Questions%20and%20Answers%20for%202023/Most%20Asked%20ReactJS%20Interview%20Questions#how-is-react-different-from-react-native)
 
 ### [Basic Level - ReactJS Interview Questions](/react/Top%2040%20ReactJS%20Interview%20Questions%20and%20Answers%20for%202023/Basic%20Level%20-%20ReactJS%20Interview%20Questions)
 
