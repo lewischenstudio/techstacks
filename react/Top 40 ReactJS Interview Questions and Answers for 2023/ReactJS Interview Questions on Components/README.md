@@ -13,6 +13,7 @@
 - [What is a higher-order component in React?](#what-is-a-higher-order-component-in-react)
 - [How can you embed two or more components into one?](#how-can-you-embed-two-or-more-components-into-one)
 - [What are the differences between class and functional components?](#what-are-the-differences-between-class-and-functional-components)
+- [Explain the lifecycle methods of components.](#explain-the-lifecycle-methods-of-components)
 
 ### What are the components in React?
 
@@ -166,9 +167,6 @@ class App extends React.Component {
 import React from "react";
 
 class NameComponent extends React.Component {
-  constructor(props) {
-    super(props);
-  }
   render() {
     return (
       <div>
@@ -247,3 +245,13 @@ class StatefulComponent extends React.Component {
 ```js
 const StatelessComponent = (props) => <div>{this.props.title}</div>;
 ```
+
+### Explain the lifecycle methods of components
+
+- `getInitialState()`: This is executed before the creation of the component.
+- `componentDidMount()`: Is executed when the component gets rendered and placed on the DOM.
+- `shouldComponentUpdate()`: Is invoked when a component determines changes to the DOM and
+  returns a “true” or “false” value based on certain conditions.
+- `componentDidUpdate()`: Is invoked immediately after rendering takes place.
+- `componentWillUnmount()`: Is invoked immediately before a component is destroyed and
+  unmounted permanently.

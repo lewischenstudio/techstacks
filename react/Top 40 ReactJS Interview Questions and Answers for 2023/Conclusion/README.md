@@ -1,3 +1,0 @@
-## Conclusion
-
-#### Table of Contents
