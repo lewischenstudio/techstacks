@@ -19,7 +19,7 @@
 
 ### What is CAP theorem?
 
-CAP(Consistency-Availability-Partition Tolerance) theorem says that a
+CAP (Consistency-Availability-Partition Tolerance) theorem says that a
 distributed system cannot guarantee C, A and P simultaneously. It can at max
 provide any 2 of the 3 guarantees. Let us understand this with the help of a
 distributed database system.
