@@ -11,7 +11,6 @@
 - [How to mitigate the SQL injection risks?](#how-to-mitigate-the-sql-injection-risks)
 - [Name some performance testing steps](#name-some-performance-testing-steps)
 - [Name the difference between _Acceptance Test_ and _Functional Test_](#name-the-difference-between-acceptance-test-and-functional-test)
-- [What are some advantages of using Go?](#what-are-some-advantages-of-using-go)
 
 ### What is CAP theorem?
 
@@ -132,20 +131,3 @@ Some of the performance testing steps are:
   product actually solves the problem it was made to solve. This can best done
   by the user (customer), for instance performaing his/her tasks that the
   software assists with.
-
-### What are some advantages of using Go?
-
-**Go** is an attempt to introduce a new, concurrent, garbage-collected language
-with fast compilation and the following benefits:
-
-- It is possible to compile a large Go program in a few seconds on a single
-  computer.
-- Go provides a model for software construction that makes dependency analysis
-  easy and avoids much of the overhead of C-style include files and libraries.
-- Go's type system has no hierarchy, so no time is spent defining the
-  relationships between types. Also, although Go has static types, the language
-  attempts to make types feel lighter weight than in typical OO languages.
-- Go is fully garbage-collected and provides fundamental support for concurrent
-  execution and communication.
-- By its design, Go proposes an approach for the construction of system software
-  on multicore machines.
