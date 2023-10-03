@@ -17,19 +17,20 @@
 
 ### What are the components in React?
 
-Components are the building blocks of any React application, and a single app usually consists
-of multiple components. A component is essentially a piece of the user interface. It splits
-the user interface into independent, reusable parts that can be processed separately.
+Components are the building blocks of any React application, and a single app
+usually consists of multiple components. A component is essentially a piece of
+the user interface. It splits the user interface into independent, reusable
+parts that can be processed separately.
 
-![React Components](/react/Top%2040%20ReactJS%20Interview%20Questions%20and%20Answers%20for%202023/ReactJS%20Interview%20Questions%20on%20Components/components.png)
+![React Components](/react/Top%2040%20ReactJS%20Interview%20Questions/ReactJS%20Interview%20Questions%20on%20Components/components.png)
 
 There are two types of components in React:
 
 #### Functional Components
 
-These types of components have no state of their own and only contain render methods, and
-therefore are also called stateless components. They may derive data from other components as
-props (properties).
+These types of components have no state of their own and only contain render
+methods, and therefore are also called stateless components. They may derive
+data from other components as props (properties).
 
 ```js
 function Greeting(props) {
@@ -39,9 +40,9 @@ function Greeting(props) {
 
 #### Class Components
 
-These types of components can hold and manage their own state and have a separate render
-method to return JSX on the screen. They are also called Stateful components as they can have
-a state.
+These types of components can hold and manage their own state and have a
+separate render method to return JSX on the screen. They are also called
+Stateful components as they can have a state.
 
 ```js
 class Greeting extends React.Component {
@@ -53,10 +54,10 @@ class Greeting extends React.Component {
 
 ### What is the use of render() in React?
 
-- It is required for each component to have a render() function. This function returns the
-  HTML, which is to be displayed in the component.
-- If you need to render more than one element, all of the elements must be inside one parent
-  tag like `<div>`, `<form>`.
+- It is required for each component to have a render() function. This function
+  returns the HTML, which is to be displayed in the component.
+- If you need to render more than one element, all of the elements must be
+  inside one parent tag like `<div>`, `<form>`.
 
 ```js
 import React from "react";
@@ -70,11 +71,12 @@ class App extends React.Component {
 
 ### What is a state in React?
 
-- The state is a built-in React object that is used to contain data or information about the
-  component. The state in a component can change over time, and whenever it changes, the
-  component re-renders.
-- The change in state can happen as a response to user action or system-generated events. It
-  determines the behavior of the component and how it will render.
+- The state is a built-in React object that is used to contain data or
+  information about the component. The state in a component can change over
+  time, and whenever it changes, the component re-renders.
+- The change in state can happen as a response to user action or
+  system-generated events. It determines the behavior of the component and how
+  it will render.
 
 ### How do you implement state in React?
 
@@ -108,7 +110,8 @@ class App extends React.Component {
 
 ### How do you update the state of a component?
 
-We can update the state of a component by using the built-in `setState()` method:
+We can update the state of a component by using the built-in `setState()`
+method:
 
 ```js
 class App extends React.Component {
@@ -137,15 +140,16 @@ class App extends React.Component {
 
 ### What are props in React?
 
-- Props are short for Properties. It is a React built-in object that stores the value of
-  attributes of a tag and works similarly to HTML attributes.
-- Props provide a way to pass data from one component to another component. Props are passed
-  to the component in the same way as arguments are passed in a function.
+- Props are short for Properties. It is a React built-in object that stores the
+  value of attributes of a tag and works similarly to HTML attributes.
+- Props provide a way to pass data from one component to another component.
+  Props are passed to the component in the same way as arguments are passed in a
+  function.
 
 ### How do you pass props between components?
 
-Props are passed from the parent component to its children components.
-Here we pass two properties `firstName` and `lastName` and their values from the `App`
+Props are passed from the parent component to its children components. Here we
+pass two properties `firstName` and `lastName` and their values from the `App`
 component to the child component `NameComponent`.
 
 **Parent Component**
@@ -190,13 +194,14 @@ class NameComponent extends React.Component {
 
 ### What is a higher-order component in React?
 
-A higher-order component acts as a container for other components. This helps to keep
-components simple and enables re-usability. They are generally used when multiple components
-have to use a common logic.
+A higher-order component acts as a container for other components. This helps to
+keep components simple and enables re-usability. They are generally used when
+multiple components have to use a common logic.
 
 ### How can you embed two or more components into one?
 
-The basic structure of embedding two or more components into one is like the following.
+The basic structure of embedding two or more components into one is like the
+following.
 
 ```js
 class App extends React.Component {
@@ -247,9 +252,10 @@ const StatelessComponent = (props) => <div>{this.props.title}</div>;
 ### Explain the lifecycle methods of components
 
 - `getInitialState()`: This is executed before the creation of the component.
-- `componentDidMount()`: Is executed when the component gets rendered and placed on the DOM.
-- `shouldComponentUpdate()`: Is invoked when a component determines changes to the DOM and
-  returns a “true” or “false” value based on certain conditions.
+- `componentDidMount()`: Is executed when the component gets rendered and placed
+  on the DOM.
+- `shouldComponentUpdate()`: Is invoked when a component determines changes to
+  the DOM and returns a “true” or “false” value based on certain conditions.
 - `componentDidUpdate()`: Is invoked immediately after rendering takes place.
-- `componentWillUnmount()`: Is invoked immediately before a component is destroyed and
-  unmounted permanently.
+- `componentWillUnmount()`: Is invoked immediately before a component is
+  destroyed and unmounted permanently.

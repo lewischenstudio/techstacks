@@ -1,4 +1,4 @@
-## Questions 31 - 40
+## Question Set D
 
 #### Table of Contents
 
@@ -37,11 +37,11 @@ According to CAP theorm, a BASE system does not guarantee consistency. This is a
 contrived acronym that is mapped to following property of a system in terms of
 the CAP theorm.
 
-- **Basically available** indicates that the system is guaranteed to be
+- **Basically Availability** indicates that the system is guaranteed to be
   available.
-- **Soft state** indicates that the state of the system may change over time,
+- **Soft-state** indicates that the state of the system may change over time,
   even without input. This is mainly due to the eventually consistent model.
-- **Eventual consistency** indicates that the system will become consistent over
+- **Eventual Consistency** indicates that the system will become consistent over
   time, given that the system doesn't receive input during that time.
 
 ### What's the difference between _Faking_, _Mocking_, and _Stubbing_?

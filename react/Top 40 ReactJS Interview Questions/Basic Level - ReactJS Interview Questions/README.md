@@ -30,35 +30,38 @@
 
 #### JSX
 
-JSX is a syntax extension to JavaScript. It is used with React to describe what the user interface shoul
-look like. By using JSX, we can write HTML structures in the same file that contains JavaScript code.
+JSX is a syntax extension to JavaScript. It is used with React to describe what
+the user interface shoul look like. By using JSX, we can write HTML structures
+in the same file that contains JavaScript code.
 
 #### Components
 
-Components are the building blocks of any React application, and a single app usually consists of
-multiple components. It splits the user interface into independent, reusable parts that can be processed
-separately.
+Components are the building blocks of any React application, and a single app
+usually consists of multiple components. It splits the user interface into
+independent, reusable parts that can be processed separately.
 
 #### Virtual DOM
 
-React keeps a lightweight representation of the real DOM in the memory, and that is known as the virtual
-DOM. When the state of an object changes, virtual DOM changes only that object in the real DOM, rather
-than updating all the objects.
+React keeps a lightweight representation of the real DOM in the memory, and that
+is known as the virtual DOM. When the state of an object changes, virtual DOM
+changes only that object in the real DOM, rather than updating all the objects.
 
 #### One-way data-binding
 
-React’s one-way data binding keeps everything modular and fast. A unidirectional data flow means that
-when designing a React app, you often nest child components within parent components.
+React’s one-way data binding keeps everything modular and fast. A unidirectional
+data flow means that when designing a React app, you often nest child components
+within parent components.
 
 #### High performance
 
-React updates only those components that have changed, rather than updating all the components at once.
-This results in much faster web applications.
+React updates only those components that have changed, rather than updating all
+the components at once. This results in much faster web applications.
 
 ### What is JSX?
 
-JSX is a syntax extension of JavaScript. It is used with React to describe what the user interface should
-look like. By using JSX, we can write HTML structures in the same file that contains JavaScript code.
+JSX is a syntax extension of JavaScript. It is used with React to describe what
+the user interface should look like. By using JSX, we can write HTML structures
+in the same file that contains JavaScript code.
 
 ```js
 render() {
@@ -72,21 +75,26 @@ render() {
 
 ### Can web browsers read JSX directly?
 
-- Web browsers cannot read JSX directly. This is because they are built to only read regular JS objects
-  and JSX is not a regular JavaScript object.
-- For a web browser to read a JSX file, the file needs to be transformed into a regular JavaScript
-  object. For this, we use Babel.
+- Web browsers cannot read JSX directly. This is because they are built to only
+  read regular JS objects and JSX is not a regular JavaScript object.
+- For a web browser to read a JSX file, the file needs to be transformed into a
+  regular JavaScript object. For this, we use Babel.
 
-![Babel](/react/Top%2040%20ReactJS%20Interview%20Questions%20and%20Answers%20for%202023/Basic%20Level%20-%20ReactJS%20Interview%20Questions/babel.png)
+![Babel](/react/Top%2040%20ReactJS%20Interview%20Questions/Basic%20Level%20-%20ReactJS%20Interview%20Questions/babel.png)
 
 ### What is the virtual DOM?
 
-DOM stands for Document Object Model. The DOM represents an HTML document with a logical tree structure.
-Each branch of the tree ends in a node, and each node contains objects.
+DOM stands for Document Object Model. The DOM represents an HTML document with a
+logical tree structure. Each branch of the tree ends in a node, and each node
+contains objects.
 
-React keeps a lightweight representation of the real DOM in the memory, and that is known as the virtual DOM. When the state of an object changes, the virtual DOM changes only that object in the real DOM, rather than updating all the objects. The following are some of the most frequently asked react interview questions.
+React keeps a lightweight representation of the real DOM in the memory, and that
+is known as the virtual DOM. When the state of an object changes, the virtual
+DOM changes only that object in the real DOM, rather than updating all the
+objects. The following are some of the most frequently asked react interview
+questions.
 
-![DOM](/react/Top%2040%20ReactJS%20Interview%20Questions%20and%20Answers%20for%202023/Basic%20Level%20-%20ReactJS%20Interview%20Questions/dom.png)
+![DOM](/react/Top%2040%20ReactJS%20Interview%20Questions/Basic%20Level%20-%20ReactJS%20Interview%20Questions/dom.png)
 
 ### Why use React instead of other frameworks, like Angular?
 
@@ -98,34 +106,36 @@ React keeps a lightweight representation of the real DOM in the memory, and that
 
 #### Easy creation of dynamic applications
 
-React makes it easier to create dynamic web applications because it provides less coding and
-provides more functionality, whereas, with JavaScript applications, code tends to get complex
-very quickly.
+React makes it easier to create dynamic web applications because it provides
+less coding and provides more functionality, whereas, with JavaScript
+applications, code tends to get complex very quickly.
 
 #### Improved performance
 
-React uses virtual DOM, which makes web applications perform faster. Virtual DOM compares its
-previous state and updates only those components in the real DOM, whose states have changed,
-rather than updating all the components — like conventional web applications.
+React uses virtual DOM, which makes web applications perform faster. Virtual DOM
+compares its previous state and updates only those components in the real DOM,
+whose states have changed, rather than updating all the components — like
+conventional web applications.
 
 #### Reusale components
 
-Components are the building blocks of any React application, and a single app usually consists
-of multiple components. These components have their own logic and controls, and they can be
-reused through the application, which, in turn, dramatically reduces the development time of
-an application.
+Components are the building blocks of any React application, and a single app
+usually consists of multiple components. These components have their own logic
+and controls, and they can be reused through the application, which, in turn,
+dramatically reduces the development time of an application.
 
 #### Unidirectional data flow
 
-React follows a unidirectional data flow. This means that when designing a React app, we often
-nest child components within parent components. And since the data flows in a single
-direction, it becomes easier to debug errors and know where the problem occurs in an
-application at the moment.
+React follows a unidirectional data flow. This means that when designing a React
+app, we often nest child components within parent components. And since the data
+flows in a single direction, it becomes easier to debug errors and know where
+the problem occurs in an application at the moment.
 
 #### Dedicated tools for easy debugging
 
-Facebook has released a chrome extension that we can use to debug React applications. This
-makes the process of debugging React to web applications faster and easier.
+Facebook has released a chrome extension that we can use to debug React
+applications. This makes the process of debugging React to web applications
+faster and easier.
 
 ### What is the difference between the ES6 and ES5 standards?
 
@@ -161,18 +171,20 @@ import React from "react";
 
 ### How do you create a React app?
 
-- Install `NodeJS` on the computer because we need `npm` to install the React library. Npm is
-  the node package manager that contains many JavaScript libraries, including React.
+- Install `NodeJS` on the computer because we need `npm` to install the React
+  library. Npm is the node package manager that contains many JavaScript
+  libraries, including React.
 - Install the `create-react-app` package using the command prompt or terminal.
 - Install a text editor of your choice, like `VS Code` or Sublime Text.
 
 ### What is an event in React?
 
-An event is an action that a user or system may trigger, such as pressing a key, a mouse
-click, etc.
+An event is an action that a user or system may trigger, such as pressing a key,
+a mouse click, etc.
 
 - React events are named using camelCase, rather than lowercase in HTML.
-- With JSX, you pass a function as the event handler, rather than a string in HTML.
+- With JSX, you pass a function as the event handler, rather than a string in
+  HTML.
 
 ### How do you create an event in React?
 
@@ -191,10 +203,11 @@ class HelloWorld extends ReactComponent {
 
 ### What are synthetic events in React?
 
-- Synthetic events combine the response of different browser's native events into one API,
-  ensuring that the events are consistent across different browsers.
-- The application is consistent regardless of the browser it is running in. For example,
-  `preventDefault` is a synthetic event.
+- Synthetic events combine the response of different browser's native events
+  into one API, ensuring that the events are consistent across different
+  browsers.
+- The application is consistent regardless of the browser it is running in. For
+  example, `preventDefault` is a synthetic event.
 
 ```js
 function ActionLink() {
@@ -212,8 +225,8 @@ function ActionLink() {
 
 ### Explain how lists work in React
 
-- We create lists in React as we do in regular JavaScript. Lists display data in an
-  ordered format
+- We create lists in React as we do in regular JavaScript. Lists display data in
+  an ordered format
 - The traversal of lists is done using the map() function
 
 ```js
@@ -226,19 +239,19 @@ const listOfFruits = () => {
 
 ### Why is there a need for using keys in Lists?
 
-- A key is a unique identifier and it is used to identify which items have changed, been
-  updated or deleted from the lists.
-- It also helps to determine which components need to be re-rendered instead of re-rendering
-  all the components every time. Therefore, it increases performance, as only the updated
-  components are re-rendered.
+- A key is a unique identifier and it is used to identify which items have
+  changed, been updated or deleted from the lists.
+- It also helps to determine which components need to be re-rendered instead of
+  re-rendering all the components every time. Therefore, it increases
+  performance, as only the updated components are re-rendered.
 
 ### What are forms in React?
 
-- Using forms, users can interact with the application and enter the required information
-  whenever needed. Form contain certain elements, such as text fields, buttons, checkboxes,
-  radio buttons, etc.
-- Forms are used for many different tasks such as user authentication, searching, filtering,
-  indexing, etc.
+- Using forms, users can interact with the application and enter the required
+  information whenever needed. Form contain certain elements, such as text
+  fields, buttons, checkboxes, radio buttons, etc.
+- Forms are used for many different tasks such as user authentication,
+  searching, filtering, indexing, etc.
 
 ### How do you create forms in React?
 
@@ -280,8 +293,8 @@ There are basically two ways in which we can write comments:
 ### What is an arrow function and how is it used in React?
 
 - An arrow function is a short way of writing a function to React.
-- It is unnecessary to bind ‘this’ inside the constructor when using an arrow function. This
-  prevents bugs caused by the use of ‘this’ in React callbacks.
+- It is unnecessary to bind ‘this’ inside the constructor when using an arrow
+  function. This prevents bugs caused by the use of ‘this’ in React callbacks.
 
 #### Without Arrow Function
 

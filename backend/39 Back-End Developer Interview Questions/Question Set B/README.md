@@ -1,4 +1,4 @@
-## Questions 11 - 20
+## Questions Set B
 
 #### Table of Contents
 
@@ -121,7 +121,7 @@ relational database system. It stands for following terms
 - **Isolation** -- This property ensures that the concurrent execution of
   transactions result in a system state that would be obtained if transactions
   were executed serially.
-- **Durable** -- It means that once a transaction has been committed, it will
+- **Durability** -- It means that once a transaction has been committed, it will
   remain so, even in the event of power loss.
 
 ### What is Sticky Session Load Balancing? What do you mean by "Session Affinity"?
