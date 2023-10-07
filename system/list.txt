@@ -1,7 +1,4 @@
 TypeScript interface vs class, 
-SOLID principles, 
-design patterns, 
-application layers, 
 stored procedures, 
 triggers and 
 Promise.
