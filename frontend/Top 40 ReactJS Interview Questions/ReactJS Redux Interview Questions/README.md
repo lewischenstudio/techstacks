@@ -21,7 +21,7 @@ state management.
 - **Reducer**: Specifies how the application's state changes in response to
   actions sent to the store.
 
-![React Components](/react/Top%2040%20ReactJS%20Interview%20Questions/ReactJS%20Redux%20Interview%20Questions/redux.png)
+![React Components](/frontend/Top%2040%20ReactJS%20Interview%20Questions/ReactJS%20Redux%20Interview%20Questions/redux.png)
 
 ### What is the Flux?
 

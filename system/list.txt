@@ -1,4 +1,2 @@
 TypeScript interface vs class, 
-stored procedures, 
-triggers and 
 Promise.

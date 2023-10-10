@@ -22,7 +22,7 @@ usually consists of multiple components. A component is essentially a piece of
 the user interface. It splits the user interface into independent, reusable
 parts that can be processed separately.
 
-![React Components](/react/Top%2040%20ReactJS%20Interview%20Questions/ReactJS%20Interview%20Questions%20on%20Components/components.png)
+![React Components](/frontend/Top%2040%20ReactJS%20Interview%20Questions/ReactJS%20Interview%20Questions%20on%20Components/components.png)
 
 There are two types of components in React:
 

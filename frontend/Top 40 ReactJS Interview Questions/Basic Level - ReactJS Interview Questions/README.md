@@ -80,7 +80,7 @@ render() {
 - For a web browser to read a JSX file, the file needs to be transformed into a
   regular JavaScript object. For this, we use Babel.
 
-![Babel](/react/Top%2040%20ReactJS%20Interview%20Questions/Basic%20Level%20-%20ReactJS%20Interview%20Questions/babel.png)
+![Babel](/frontend/Top%2040%20ReactJS%20Interview%20Questions/Basic%20Level%20-%20ReactJS%20Interview%20Questions/babel.png)
 
 ### What is the virtual DOM?
 
@@ -94,7 +94,7 @@ DOM changes only that object in the real DOM, rather than updating all the
 objects. The following are some of the most frequently asked react interview
 questions.
 
-![DOM](/react/Top%2040%20ReactJS%20Interview%20Questions/Basic%20Level%20-%20ReactJS%20Interview%20Questions/dom.png)
+![DOM](/frontend/Top%2040%20ReactJS%20Interview%20Questions/Basic%20Level%20-%20ReactJS%20Interview%20Questions/dom.png)
 
 ### Why use React instead of other frameworks, like Angular?
 

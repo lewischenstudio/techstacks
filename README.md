@@ -2,5 +2,7 @@
 
 #### Table of Contents
 
-- [React](/react/)
-- [Back-End](/backend/)
+- [Frontend](/frontend/README.md)
+- [Back-End](/backend/README.md)
+- [DevOps](/devops/README.md)
+- [System](/system/README.md)
