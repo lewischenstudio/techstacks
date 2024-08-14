@@ -1,4 +1,4 @@
-# Interview Questions and Answers for Tech Stacks
+# Key Concepts for Technology Stacks
 
 #### Table of Contents
 
